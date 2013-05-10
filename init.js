@@ -47,7 +47,8 @@ $(function(){
     backgroundColor: mapCanvasBackground,
     zoomOnScroll: false,
     zoomButtons: false,
-
+    markersSelectable: true,
+    markersSelectableOne: true,
     markerStyle: {
       initial: {
         fill: defaultMarkerFill,
