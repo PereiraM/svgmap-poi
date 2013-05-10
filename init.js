@@ -1,3 +1,22 @@
+
+var mapCanvasBackground     = '#ffffff',
+    maxColour               = '#FFDED3',
+    minColour               = '#A0D2F0',
+
+    defaultMarkerFill       = '#E1191E',
+    defaultMarkerStroke     = '#ffffff',
+
+    hoverMarkerFill         = '#125278',
+    hoverMarkerStroke       = '#ffffff',
+
+    defaultRegionFill       = '#cfe8f7',
+    defaultRegionStroke     = '#999999',
+
+    hoverRegionFill         = '#cfe8f7',
+    hoverRegionStroke       = '#999999',
+
+    detail                  = '';
+
 var dataMarkers  = [
     {id: 'santiago',   detail: 'santiagoDetail',   latLng: [-33.45, -70.67],   name: 'Church of the Company Fire, Santiago, Chile, December 8, 1863'},
     {id: 'halifax',    detail: 'halifaxDetail',    latLng: [44.65, -63.57],    name: 'Halifax explosion, 1917'},
@@ -20,26 +39,7 @@ var dataMarkers  = [
 $(function(){
 
   $('.detail').hide();
- $('#defaultDetail').show();
-
-  var mapCanvasBackground     = '#ffffff',
-      maxColour               = '#FFDED3',
-      minColour               = '#A0D2F0',
-
-      defaultMarkerFill       = '#E1191E',
-      defaultMarkerStroke     = '#ffffff',
-
-      hoverMarkerFill         = '#125278',
-      hoverMarkerStroke       = '#ffffff',
-
-      defaultRegionFill       = '#cfe8f7',
-      defaultRegionStroke     = '#999999',
-
-      hoverRegionFill         = '#cfe8f7',
-      hoverRegionStroke       = '#999999',
-
-      detail                  = '';
-
+  $('#defaultDetail').show();
 
   $('#mapsvg').vectorMap({
     map: 'world_mill_en',
