@@ -110,7 +110,7 @@ p.credit {
     font-size: 11px;
     font-family: arial, sans-serif;
     font-style: italic;
-    margin: 0px;
+    margin: 0px 5px;
     padding: 0px;
 }
 
@@ -140,9 +140,9 @@ p.note {
     float: right;
     text-align: right;
     width: 460px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: normal;
-    margin: 0px 10px;
+    margin: 0px 5px;
     padding: 0px;
     line-height: 1;
 }
