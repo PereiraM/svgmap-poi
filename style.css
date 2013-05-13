@@ -46,11 +46,12 @@ body {
 #mapsvg {
     display: block;
     float: left;
-    width: 600px;
-    height: 400px;
+    width: 598px;
+    height: 398px;
     background: #ffffff;
     padding: 0px;
-    margin: 0px 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
 }
 
 #details {
@@ -109,7 +110,7 @@ p.credit {
     font-size: 11px;
     font-family: arial, sans-serif;
     font-style: italic;
-    margin: 0px 5px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -167,11 +168,11 @@ p.note {
     font-size: 13px;
     line-height: 1.3;
     padding: 5px;
-    width: 140px !important;
+    width: 180px;
 }
 
 .jvectormap-zoomin, .jvectormap-zoomout {
-    display: none;
+    display: block;
     position: absolute;
     left: 10px;
     -webkit-border-radius: 3px;
